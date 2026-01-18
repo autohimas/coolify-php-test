@@ -1,7 +1,7 @@
 <?php
-var_dump(getenv('MYSQL_HOST_NAME'));
+//var_dump(getenv('MYSQL_HOST_NAME'));
 require 'db.php';
-require 'redis.php';
+//require 'redis.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['name'] ?? '';
