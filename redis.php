@@ -1,7 +1,7 @@
 <?php
 $redis = new Redis();
 $redis->connect(
-    'redis-main',
+    '10.0.1.4',
     '6379'
 );
 
