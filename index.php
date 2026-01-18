@@ -34,9 +34,9 @@ $redisValue = $redis->get("test_key");
 <p><?= $redisValue ?></p>
 
 <h3>Upload Image</h3>
-<form action="upload.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="image">
-    <button>Upload</button>
+<form action="upload.php" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file" required>
+    <button type="submit">Upload</button>
 </form>
 
 </body>
