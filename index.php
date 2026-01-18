@@ -1,4 +1,5 @@
 <?php
+echo MYSQL_HOST_NAME;
 require 'db.php';
 require 'redis.php';
 
