@@ -7,7 +7,7 @@ $redis->connect(
 );
  
 $pass = 'wJwoa635BhCV7QkMei3vnf7z4xH6WbxYdbDZY2ja7jU1FeeXIoJ6Lx4UxvHXrXIW';
- $redis->connect($host, $port, 2.5);
+ $redis->connect('10.0.1.4','6379', 2.5);
 
 // Auth (Password only)
 if (!empty($pass)) {
