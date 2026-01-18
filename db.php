@@ -1,8 +1,8 @@
 <?php
-$host = getenv('MYSQL_HOST_NAME');
-$db   = getenv('MYSQL_DATABASE');
-$user = getenv('MYSQL_USER');
-$pass = getenv('MYSQL_PASSWORD');
+$host = 'mysql-database';
+$db   = 'app_db';
+$user = 'app_user';
+$pass = 'mylove';
 
 try {
     $pdo = new PDO(
