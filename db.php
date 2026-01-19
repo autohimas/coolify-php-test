@@ -1,5 +1,5 @@
 <?php
-$host = 'host.docker.internal';
+$host = '127.0.0.1';
 $db   = 'app_db';
 $user = 'root';
 $pass = 'mylove';
