@@ -8,8 +8,8 @@ $port = 3307;
 try {
     $pdo = new PDO(
   "mysql:host=$host;port=$port;dbname=app_db;charset=utf8mb4",
-  'myuser',
-  'mypass'
+  'root',
+  'mylove'
 );
 } catch (Exception $e) {
     die("DB Error: " . $e->getMessage());
