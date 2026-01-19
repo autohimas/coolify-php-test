@@ -1,7 +1,7 @@
 <?php
 $host = '10.0.1.7';
 $db   = 'app_db';
-$user = 'app_user';
+$user = 'root';
 $pass = 'mylove';
 
 try {
