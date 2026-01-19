@@ -3,14 +3,14 @@ $host = 'host.docker.internal';
 $db   = 'app_db';
 $user = 'root';
 $pass = 'mylove';
+$port = 3307;
 
 try {
     $pdo = new PDO(
-        "mysql:host=$host;dbname=$db;charset=utf8mb4",
-        $user,
-        $pass,
-        [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
-    );
+  "mysql:host=$host;port=$port;dbname=app_db;charset=utf8mb4",
+  'myuser',
+  'mypass'
+);
 } catch (Exception $e) {
     die("DB Error: " . $e->getMessage());
 }
